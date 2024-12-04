@@ -1,8 +1,8 @@
-# Algoritmo para tonotos
+# Algoritmos para tonotos 
 
 Bueno, bola de tonotos, este repo está hecho con el único propósito de que aprendan algoritmos, ya que la grandiosisima profesora borrega no hizo ni vrgs.
 
-Estaba pensando en, cada semana dedicarle **mínimo** una hora diaria, ya que con menos no va aservir de nada por que los conozco y sé que no estudian por las buenas, así que un máximo de 3 horas diarias por que estoy seguro de que más no aguantan.
+Estaba pensando en: cada semana dedicarle **mínimo** una hora diaria, ya que con menos no va aservir de nada por que los conozco y sé que no estudian por las buenas, y también un máximo de 3 horas diarias por que estoy seguro de que más no aguantan.
 
 De preferencia descarguen VS Code para cuando empecemos a codear...
 
