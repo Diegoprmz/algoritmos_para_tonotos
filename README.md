@@ -1,4 +1,4 @@
-# algoritmos_para_tonotos
+# Algoritmo para tonotos
 
 Bueno, bola de tonotos, este repo está hecho con el único propósito de que aprendan algoritmos, ya que la grandiosisima profesora borrega no hizo ni vrgs.
 
