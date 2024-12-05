@@ -8,6 +8,8 @@ Cronograma esperado de temas (Puede variar los temas vistos en razón de como va
     e. bucles
     f. funciones
 
+    1.1 Algoritmia y lógica de programación
+
 2. Programación: tipos de variables
     a. primitivas o complejas/compuestas/estructuradas
     b. enteros
