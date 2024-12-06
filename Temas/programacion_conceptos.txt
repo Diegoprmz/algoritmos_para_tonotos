@@ -1,0 +1,96 @@
+Si usas VS Code, utiliza el comando "alt + z" para visualizar el contenido con saltos de línea.
+
+Los conceptos básicos para entender todo tipo de algoritmos enfocados a la programación son los siguientes, en las siguientes clases iremos viendo de manera más detallada los conceptos, profundidad y la forma en que se utilizan en el ambito del desarrollo de software
+
+1. Variables
+
+Definición: Es un espacio de memoria capaz de almacenar información, datos o eventos. Su valor puede ser modificado a lo largo del programa.
+
+Consta de 2 ó 3 partes dependiendo del lenguaje de programación: 
+
+- Tipo de dato: Es el tipo de dato que se almacena en la variable.
+- Identificador: Es el nombre que se le da a la variable, debe ser único y no debe ser ambigüo.
+- Valor: Es el contenido que se almacena en la variable.
+
+Ejemplo: 
+// C
+int edad = 21;
+//JavaScript
+edad = 21;
+
+2. Datos 
+
+Los datos son símbolos, carácteres, números, o eventos aisalados que en conjunto producen información pertinente. (Extraído de las clases de la Dra. Adrinana Vargas)
+En pocas palabras, son hechos con relevancia pero sin procesar, información en crudo por decirlo de algún modo.
+Existen dos tipos de datos, los primitivos (enteros, carácteres, booleanos, etc..) y los compuestos o estructurados (Arreglos, estructuras, clases, etc..). La diferencia radica en que los datos primitivos son inmutables, es decir, están definidos dentro del lenguaje de programación, mientras que los compuestos son, exactamente, compuestos por un conjunto de datos primitivos.
+Además de los dos anteriores hay un tercer grupo llamado "abstractos", los cuáles más que datos son modelos para su manipulación.
+
+Los datos primitivos son:
+ - Integers (enteros)
+ - Floats (números decimales)
+ - Boolean (verdadero o falso)
+ - Carácteres (letras o símbolos)
+ - Strings (cadenas de carácteres)
+
+Los datos compuestos son: 
+ - Arreglos (conjuntos de datos primitivos)
+ - Estructuras (conjuntos de datos primitivos con un nombre y un tipo de dato)
+ - Clases (conjuntos de datos primitivos con un nombre y un tipo de dato, además de métodos) 
+ - Enumeraciones (Listas de datos predefinidos)
+ - Tuplas (Son tipos de ojetos ordenados de datos heterógeneos)
+
+Los datos abstractos son:
+ - Listas (Son secuencias ordenadas como Arreglos dinámicos)
+ - Conjuntos (Colecciones de elementos únicos)
+ - Mapas (Colecciones de pares clave-valor)
+ - Pilas/stacks (Formas de ordenamiento que siguen el principio LIFO {Last In, First Off})
+ - Colas/queue (Formas de ordenamiento que siguen el principio FIFO {First In, First Off})
+
+3. Operadores
+Son símbolos que nos ayudan a procesar información o datos en razón de los valores que querramos obtener.
+Hay distintos tipos de operadores, los cuales son:
+
+ - Aritméticos: son los que nos ayudan a operar números.
+ a. suma (+)
+ b. resta (-)
+ c. multiplicación (*)
+ d. división (/)
+ e. módulo (%)
+ f. potencia (^)
+ - Lógicos: son los que nos ayudan a operar con valores booleanos.
+ a. AND (&&)
+ b. OR (||)
+ c. NOT (!)
+ - Relacionales: son los que nos ayudan a comparar valores.
+ a. Igual a (==)
+ b. Distinto de (!=)
+ c. Mayor que (>)
+ d. Menor que (<)
+ e. Mayor o igual a (>=)
+ f. Menor o igual a (<=)
+ - Asignación: son los que nos ayudan a asignar valores a variables.
+ a. Asignación (=)
+ b. Asignación de valor de una variable a otra (+=, -=, *=, /=)
+ - Bit a bit: son los que nos ayudan a operar con los bits de los números
+ a. AND (&)
+ b. OR (|)
+ c. XOR (^)
+ d. NOT (~)
+
+4. Secuencias
+
+Las secuencias son las formas de programación, no nos adentraremos en paradigmas por el momento ya que ahí las secuencias puenden llehas a cambiar un poco pero son, en esencia, las mimsmas para todos los paradigmas.
+
+Las secuencias son: 
+ - Secuencia lineal: Es la forma más común de programación, donde se ejecutan todas las instrucciones de manera lineal y top-down.
+ - Secuencia de control: Es la forma de programación en la que se interrumpe el curso líneal del programa con estructuras de bifurcación de tipo if o swithc.
+ - Secuencias iterativas: Secuencias en las que el programa se repite hasta que se cumpla o deje de cumplir una condición.
+
+5. Bucles 
+
+Son estructuras que repiten secciones del programa hasta que se cumpla o deje de cumplir una condición.
+
+Los tipos de bucles son:
+- Bucle exacto (for): Es un bucle que se repite un número determinado de veces.
+- Bucle condicional (while): Es un bucle que se repite mientras se cumpla una condición.
+- Bucle condicional con incremento (do-while): Es un bucle que se repite al menos una vez.
