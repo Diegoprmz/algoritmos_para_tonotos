@@ -1,4 +1,6 @@
-# Puntajes: Conceptos
+# AL QUE MÁS PUNTOS CONSIGA LE REGALO ALGO AL FINAL DE ESTE DESMADRE
+
+## Puntajes: Conceptos
 
 Jeshyd: 8
 Paris: 8
@@ -7,7 +9,7 @@ Raúl: 8
 Michelle: NP
 Yisele: NP
 
-# Puntajes: Lógica de programación
+## Puntajes: Lógica de programación
 
 Jeshyd: NP
 Paris: NP
