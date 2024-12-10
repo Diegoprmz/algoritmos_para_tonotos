@@ -17,3 +17,12 @@ Karen: NP
 Raúl: 7
 Michelle: 8
 Yisele: NP
+
+## Puntajes: Ejercicos de programas 
+
+Jeshyd: NP
+Paris: 6
+Karen: 10
+Raúl: 8
+Michelle: 7
+Yisele: 10

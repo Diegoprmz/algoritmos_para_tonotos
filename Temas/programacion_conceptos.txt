@@ -32,7 +32,7 @@ Los datos primitivos son:
  - Carácteres (letras o símbolos)
  - Strings (cadenas de carácteres)
 
-Los datos compuestos son: 
+Los datos compuestos son:
  - Arreglos (conjuntos de datos primitivos)
  - Estructuras (conjuntos de datos primitivos con un nombre y un tipo de dato)
  - Clases (conjuntos de datos primitivos con un nombre y un tipo de dato, además de métodos) 
