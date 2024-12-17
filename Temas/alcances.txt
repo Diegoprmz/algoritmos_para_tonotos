@@ -1,0 +1,21 @@
+Alcances 
+
+
+Globales: Pueden ser accedidas desde cualquier instanciamiento del programa.
+
+Locales: Solamente pueden ser accedidas dentro de un ionstanciamietno o sus heredados.
+
+Tiempo de vida:
+    
+    Dinámicas: Aparecen y/o desaparecen  de la misma instancia. Puden ser modificadas dentro del mismo programa o ser modificadas por el usuario.
+
+    Automáticas: Cambian de manera automática conforme avanza el programa.
+
+    Constantes: No cambian.
+
+Almacenamiento:
+
+    Volatiles: Se borran cuando se apaga el equipo o se reinicia el programa.
+
+    Persistentes: Se guardan en la memoria del sistema.
+
