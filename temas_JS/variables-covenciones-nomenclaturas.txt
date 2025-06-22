@@ -57,3 +57,6 @@ Para nombrar archivos o carpetas utilizo snake_case. Esto le da mucha legibilida
 Para nombrar variables o funciones utilizo camelCase. Esto me permite escribir nombres de variables de manera más rápida y legible.
 
 Por último, para nombrar constantes utilizo SCREAMING_CASE. Esto me permite identificar las cosas que de verdad son importantes para el programa y saber qué puedo modificar, qué no y qué debo de sacar un MAP, un REDUCE o un FILTER. (Más adelante les explico qué es eso) 
+
+
+Al terminar de esta lección, les recomiendo que revisen el repositorio y que hagan los cambios. Al hacer los cambios ejecuten el comando `git commit -am "Su_aportación"` y luego enter. Luego ejecuten el comando `git push` para que se reflejen los cambios en el repositorio y yo pueda revisarlos.
