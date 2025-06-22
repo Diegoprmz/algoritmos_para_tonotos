@@ -3,7 +3,4 @@ Ya que en nuestro día a día pensamos los problemas de manera líneal, desarrol
 
 Problema 1: Un bote de basura se requiere vaciar cada vez que alcanza el 75% de su capacidad; hacer un programa que detecte y vacíe el bote una vez que alcanze ésta cantidad y permita volver a llenarlo.
 
-Raúl := 6;
-Michelle := 7;
-
 Problema 2: Un celular entra al modo ahorro de batería al 20% de carga; hacer un programa que detecte cuando llega a este porcentaje y el ultra ahorro al 5%. Además, debe utilizar el cambio de estado de la variable para saber el estado en el que está.
