@@ -1,1 +1,3 @@
 Hola, soy Diego
+
+Soy el wei que les va a estar ayudando con su aprendizaje en JS y en programación front end, también es menester mío que empiecen no solo a programar, sino también a generar dinero lo antes posible.
