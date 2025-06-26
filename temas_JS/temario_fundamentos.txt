@@ -1,0 +1,11 @@
+Fase 1: Fundamentos sólidos 
+
+Meta: Reforzar HTML, CSS (SASS), JavaScript, Git, Node.Js y Express.Js
+
+-HTML5 semántico y buenas prácticas.
+-CSS avanzado (Flexbox, Grid, animaciones básicas).
+-JavaScript (DOM, eventos, funciones, arrays, objetos).
+-Práctica diaria: hacer componentes como navbar, cards, formularios.
+-Git y GitHub: comandos básicos, subir tus proyectos.
+
+
