@@ -8,10 +8,9 @@ git checkout dev-ensenanza
 git fetch upstream
 
 # 4. Mezclar los cambios en su rama local
-git merge upstream/dev-ensenanza
+git merge upstream/main
 
 # 5. (Opcional) Subir al fork en GitHub
-git push origin dev-ensenanza
-
+git push origin aprendizaje
 
 Terminado
