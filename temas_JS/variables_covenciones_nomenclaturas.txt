@@ -36,7 +36,11 @@ La camelCase pues funciona justamente como el nombre lo dice, es decir, se escri
 - `miArray`
 
 snake_case: funciona de la misma manera que la camelCase pero en minúsculas y separando las palabras con guiones bajos, por ejemplo:
+<<<<<<< main
+- `mi_variable`
+=======
 - `mi_variable`   
+>>>>>>> main
 - `mi_funcion`
 - `mi_archivo`
 - `mi_objeto`
