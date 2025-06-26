@@ -1,0 +1,17 @@
+# 1. Ir a la carpeta del repo local
+cd tu-repo
+
+# 2. Cambiar a la rama principal del proyecto
+git checkout dev-ensenanza
+
+# 3. Traer los cambios del repo original (tu repositorio)
+git fetch upstream
+
+# 4. Mezclar los cambios en su rama local
+git merge upstream/dev-ensenanza
+
+# 5. (Opcional) Subir al fork en GitHub
+git push origin dev-ensenanza
+
+
+Terminado
