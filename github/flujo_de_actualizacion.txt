@@ -11,6 +11,6 @@ git fetch upstream
 git merge upstream/main
 
 # 5. (Opcional) Subir al fork en GitHub
-git push origin aprendizaje
+git push origin main
 
 Terminado
