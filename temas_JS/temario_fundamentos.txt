@@ -7,5 +7,3 @@ Meta: Reforzar HTML, CSS (SASS), JavaScript, Git, Node.Js y Express.Js
 -JavaScript (DOM, eventos, funciones, arrays, objetos).
 -Práctica diaria: hacer componentes como navbar, cards, formularios.
 -Git y GitHub: comandos básicos, subir tus proyectos.
-
-

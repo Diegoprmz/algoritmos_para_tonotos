@@ -1,0 +1,36 @@
+HTML semántico
+
+¿Qué es HTML?
+
+HTML es el lenguaje que usamos para estructurar el contenido de una página web. HTML5 introdujo etiquetas semánticas, que le dicen al navegador (y a personas con discapacidad) qué representa cada parte del contenido.
+
+¿Qué entienden por “estructura” en una página web?
+
+- Organización de la web.
+- Funciones de cada sección.
+- Accesibilidad y usabilidad.
+- Estructura de la información.
+
+Etiquetas semánticas
+
+<header>: encabezado principal
+<nav>: navegación
+<main>: contenido central
+<article>: artículo independiente
+<section>: sección del contenido
+<aside>: contenido secundario o complementario
+<footer>: pie de página
+<ul>: un-ordened list - genera una lista sin estar ordenada
+<ol>: ordened list - genera una lista ordenada (enumerada)
+<li>: list - son los elementos de una lista
+<a>: anchor - genera un hipervínculo
+<div>: division - que va un bloquesito manipulable
+
+Buenas practicas de HTML y semántica:
+
+- Usar etiquetas semánticas siempre que sea posible.
+- Utilizar las etiquetas semánticas adecuadas.
+- Utilizar alt en imagenes.
+- Anidar correctamente las etiquetas.
+- Validar el HTML (https://validator.w3.org)
+- Utilizar nombres de clases descriptivos.
