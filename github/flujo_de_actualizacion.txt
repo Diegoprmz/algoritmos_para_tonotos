@@ -1,14 +1,14 @@
 # 1. Ir a la carpeta del repo local
 cd tu-repo
 
-# 2. Cambiar a la rama principal del proyecto
-git checkout dev-ensenanza
+# 2. Hacer la actualización del repositorio remoto al local (fork)
+git remote add upstream <URL_DEL_REPO_ORIGINAL>
 
 # 3. Traer los cambios del repo original (tu repositorio)
 git fetch upstream
 
 # 4. Mezclar los cambios en su rama local
-git merge upstream/main
+git pull origin main
 
 # 5. (Opcional) Subir al fork en GitHub
 git push origin main
