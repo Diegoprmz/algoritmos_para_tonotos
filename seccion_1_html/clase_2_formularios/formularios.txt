@@ -1,0 +1,52 @@
+Objetivo general de la clase: 
+
+Entender la importancia de utilizar la semántica en los formularios para construir código HTML de calidad, así como entender y conocer los principales elementos de entrada y aprender a crear formularios accesibles y bien estructurados.
+
+Introducción:
+
+¿Qué es un formulario? 
+Una estructura HTML que permite recoger datos direcamente del usuario. Sus principales usos son: 
+- Login en páginas y apps
+- Iniciar sesión
+- Enviar comentarios
+- Buscar algo
+
+<form action="/README.md" method="post">
+        <button type="submit">
+            Enviar Info
+        </button>
+</form>
+
+form: La estructura general del formulario (Tipo block)
+label: Etiqueta que sirve para explicar para qué sirve el campo (se vinculan por medio del nombre) 
+input: Campo que dicta qué tipo de información (satos) se van a ingresar. (Deben tener el name)
+textarea: Campo de texto que permite ingresar texto de manera más amplia que el input. 
+fieldset: Agrupación de imputs (requiere utilizar un legend para saber porqué están agrupados)
+method: cómo se envía
+submit: boton para enviar
+
+
+Patrones: 
+Las expresiones regulares o REGEX se utilizan para validar, reemplazar o buscar strings.
+Nos ayuda a: validar formularios, buscar palabras dentro de un texto, reemplazar o extraer partes de un string.
+
+\d: digit: 3,4,7,22,... 
+\d{4}: cuatro números consecutivos : 2025
+[A-Za-z]: Una letra mayúscula o minúsculas: a, g, m, q,...
+[0-9]{5}: Cinco dígitos consecutivos que estén en el conjunto de los decimales
+^México: buca que se comience con la palabra México: México tiene una maravilla del mundo moderno.
+
+<input type="text" pattern="[A-Za-z ]+" title="Solamente acepta letras y espacios"
+
+
+Símbolo	Significado
+^	Inicio de la cadena
+$	Fin de la cadena
+.	Cualquier carácter
+*	Cero o más repeticiones
++	Una o más repeticiones
+?	Cero o una vez
+{n}	Exactamente n veces
+[abc]	Cualquiera de a, b o c
+\d	Cualquier dígito (0–9)
+\w	Cualquier letra o número

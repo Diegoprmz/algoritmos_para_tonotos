@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario email</title>
+</head>
+<body>
+    <style>
+        .formulario {
+            display: block;
+        };
+    </style>
+
+    <form class="fomulario">
+        <label class="formulario" for="nombre">Usuario: </label>
+        <input class="formulario" type="text" id="nombre" name="nombre" required>
+        <label class="formulario" for="email">Correo: </label>
+        <input class="formulario" type="email" id="email" name="email" required>
+        <fieldset>
+            <legend>
+                Contraseñas
+            </legend>
+            <label class="formulario" for="password">Contraseña: </label>
+        <input class="formulario" type="password" id="password" name="password" required min="8" max="20" pattern="">
+        <label class="formulario" for="password">Repita su contraseña: </label>
+        <input class="formulario" type="password" id="password" name="password" required>
+        </fieldset>
+
+        <label for="gender">Escoge tu genero:</label>
+        <select name="gender" id="gender">
+            <option value="masc">Hombre</option>
+            <option value="fem">Mujer</option>
+            <option value="paris">No sé</option>
+            <option value="otro">Otro</option>
+        </select>
+
+        <input type="text" pattern="[A-Za-z ]+" title="Solamente acepta letras y espacios" required>
+
+        <button class="formulario" type="submit">Enviar</button>
+
+        <input type="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}" title="Debe tener al menos 8 caracteres, una mayúscula, una minúscula y un número">
+
+    </form>
+</body>
+</html>
