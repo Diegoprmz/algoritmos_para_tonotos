@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Registrate</h1>
+    </header>
+    <style>
+        .formulario {
+            display: block;
+        };
+    </style>
+    <form class="formulario">
+        <label class="formulario" for="nombre">Nombre:</label>
+        <input class="formulario" type="text" id="nombre" name="nombre" required>
+
+        <label class="formulario" for="correo">Correo:</label>
+        <input class="formulario" type="email" id="correo" name="correo" required>
+
+        <label class="formulario" for="contraseña">Contraseña:</label>
+        <input class="formulario" type="password" id="contraseña" name="contraseña" required>
+
+        <fieldset><legend>Selecciona tus temas de interes:</legend>
+        <input type="checkbox" id="deportes">
+        <label for="deportes">Deportes</label><br>
+        
+        <input type="checkbox" id="musica">
+        <label for="musica">Música</label><br>
+
+        <input type="checkbox" id="tecnologia">
+        <label for="tecnologia">Tecnologia</label><br>
+
+        <input type="checkbox" id="entretenimiento">
+        <label for="entretenimiento">Entretenimiento</label>
+        </fieldset><br>
+
+        <button class="formulario" type="submit">Enviar</button>
+    </form>
+</body>
+</html>
