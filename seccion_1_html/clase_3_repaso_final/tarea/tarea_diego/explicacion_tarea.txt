@@ -1,0 +1,9 @@
+La tarea consiste en crear una página web donde ustedes van a hacer una mini tienda de cualquier producto que ustedes quieran. 
+- El producto debe ser algo que se pueda comprar en una tienda física.
+- Debe de tener una seccion de inicio, una seccion de tienda, una seccion de login y conocenos 
+- Lo pueden estructurar como quieran (One-page o por páginas)
+- Debe tener un form de login 
+- Debe tener un form de pago
+- Debe hacer buen uso de las etiquetas semánticas y de formulario
+- Debe tener una documentación para su presentación
+- Tema libre
