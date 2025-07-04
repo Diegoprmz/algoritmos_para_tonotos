@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <form class="fomulario">
+        <label class="formulario" for="nombre">Nombre:</label>
+        <input class="formulario" type="text" id="nombre" name="nombre" required>
+
+        <label class="formulario" for="email">Correo: </label>
+        <input class="formulario" type="email" id="email" name="email" required>
+
+        <label class="formulario" for="password">Contraseña: </label>
+        <input class="formulario" type="password" id="password" name="password  " required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}" title="Debe tener al menos 8 caracteres, una mayúscula, una minúscula y un número">
+
+        <fieldset> 
+            <legend>Temas de interes:</legend>
+        <input class="formulario" type="checkbox" id="tecnologia" name="interes" value="tecnologia"><label class="formulario" for="tecnologia">Tecnología</label>
+        <input class="formulario" type="checkbox" id="ciencia" name="interes" value="ciencia"><label class="formulario" for="ciencia">Ciencia</label>
+        <input class="formulario" type="checkbox" id="arte" name="interes" value="arte"><label class="formulario" for="arte">Arte</label>
+        <input class="formulario" type="checkbox" id="deportes" name="interes" value="deportes"><label class="formulario" for="deportes">Deportes</label>
+        <input class="formulario" type="checkbox" id="musica" name="interes" value="musica"><label class="formulario" for="musica">Música</label>
+        <input class="formulario" type="checkbox" id="viajes" name="interes" value="viajes"><label class="formulario" for="viajes">Viajes</label>
+        <input class="formulario" type="checkbox" id="literatura" name="interes" value="literatura"><label class="formulario" for="literatura">Literatura</label>
+        <input class="formulario" type="checkbox" id="cine" name="interes" value="cine"><label class="formulario" for="cine">Cine</label>
+        <input class="formulario" type="checkbox" id="moda" name="interes" value="moda"><label class="formulario" for="moda">Moda</label>
+        </fieldset>
+
+        <button class="formulario" type="submit">Enviar</button>
+    </form>
+</body>
+</html>
