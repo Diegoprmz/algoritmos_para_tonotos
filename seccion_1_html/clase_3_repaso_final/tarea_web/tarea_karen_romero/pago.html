@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago - Tienda Kevin Kaarl</title>
+</head>
+<body>
+    <header>
+        <h1>Pago - Tienda de Kevin Kaarl</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Detalles de Pago</h2>
+            <form action="#">
+                <label for="name">Nombre(s):</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="surname">Apellidos:</label>
+                <input type="text" id="surname" name="surname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Dirección de Envío</legend>
+
+                    <label for="address">Dirección:</label>
+                    <input type="text" id="address" name="address" required>
+
+                    <label for="postal-code">Código Postal:</label>
+                    <input type="text" id="postal-code" name="postal-code" required>
+
+                    <label for="state">Estado:</label>
+                    <input type="text" id="state" name="state" required>
+
+                    <label for="city">Municipio/Ciudad:</label>
+                    <input type="text" id="city" name="city" required>
+
+                    <label for="telefono">Telefono:</label>
+                    <input type="text" id="telefono" name="telefono" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pago con tarjeta</legend>
+                    
+                    <label for="nombre-titular">Nombre del titular:</label>
+                    <input type="text" id="nombre-titular" name="nombre-titular" required>
+
+                    <label for="tarjeta">Número de Tarjeta:</label>
+                    <input type="text" id="tarjeta" name="tarjeta" required>
+                    
+                    <label for="fecha-expiracion">Fecha de Expiración:</label>
+                    <input type="month" id="fecha-expiracion" name="fecha-expiracion" required>
+                    
+                    <label for="cvv">Codigo CVV:</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </fieldset>
+
+                <button type="submit">Confirmar Pago</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
