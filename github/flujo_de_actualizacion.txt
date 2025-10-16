@@ -8,7 +8,10 @@ git remote add upstream <URL_DEL_REPO_ORIGINAL>
 git fetch upstream
 
 # 4. Mezclar los cambios en su rama local
-git merge upstream/main
+git merge upstream/main 
+
+#4.1 Jalar cambios al repositorio local
+git pull origin main
 
 # 5. (Opcional) Subir al fork en GitHub
 git push origin main
