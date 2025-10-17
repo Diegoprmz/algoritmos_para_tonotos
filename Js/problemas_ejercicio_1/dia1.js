@@ -11,7 +11,7 @@ function mayorDeTres(a, b, c) {
         console.log(`El mayor es ${c}`);
     }
 }
-
+mayorDeTres(a,b,c)
 
 // Ejercicio 2: Pide a tus compañeros dos números y un operador y muestra el resultado (Pueba en consola del navegador)
 
